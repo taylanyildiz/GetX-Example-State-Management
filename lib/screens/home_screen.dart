@@ -45,7 +45,13 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Text('Decrease'),
               color: Colors.blue,
               textColor: Colors.white,
-            )
+            ),
+            Container(
+              color: Colors.black,
+              width: Get.width * .5,
+              height: Get.width * .3,
+            ),
+            
           ],
         ),
       ),
